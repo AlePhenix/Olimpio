@@ -1,0 +1,24 @@
+*
+{
+    font-size: 15px;
+    font-family: Arial;
+    color: aquamarine;
+    background-color: #444;
+}
+
+body{
+    text-align: center;
+}
+
+header {
+    width: 70%;
+    text-align: left;
+    padding: 1.2rem;
+    border: 1px solid aquamarine;
+    margin: 30px auto;
+}
+h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
