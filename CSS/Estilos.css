@@ -2,12 +2,14 @@
 {
     font-size: 15px;
     font-family: Arial;
-    color: aquamarine;
-    background-color: #444;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     text-align: center;
+    color: aquamarine;
+    background-color: #444;
 }
 
 header {
@@ -16,9 +18,39 @@ header {
     padding: 1.2rem;
     border: 1px solid aquamarine;
     margin: 30px auto;
+    color: aquamarine;
+    background-color: #444;
 }
 h1 {
     font-size: 25px;
     margin-bottom: 8px;
 }
 
+.sectionHome{
+    width: 100%;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.titleMain {
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 27px;
+    color: #555;
+}
+
+.sectionHome li {
+    display: inline;
+    margin: 0 22px;
+    padding: 10px 20px;
+    border: 1.5px solid salmon;
+    border-radius: 3px;
+    font-size: 14px;
+    list-style: none;
+    color: #555;
+}
+
+.sectionHome li:hover {
+    background-color: rgb(245, 193, 186);
+    transition: 0.5s;
+}
