@@ -37,7 +37,8 @@ h1 {
 .sectionHome{
     width: 100%;
     height: auto;
-    background-color: antiquewhite;
+    margin-bottom: 50px;
+    background-color: #faebd7;
 }
 
 .titleMain {
@@ -59,9 +60,10 @@ h1 {
 }
 
 .sectionHome ul :nth-child(4) {
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 .sectionHome li:hover {
-    background-color: rgb(245, 193, 186);
+    color: #000;
+    background-color: #00000022;
     transition: 0.5s;
 }
